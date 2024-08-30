@@ -1,14 +1,18 @@
-import HeaderComponent from './components/HeaderComponent';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <HeaderComponent />
-      </header>
-      <body>
-      </body>
-    </div>
+    <HomePage />
+    // <Router>
+    //   <div className="App">
+    //     <Routes>
+    //       <Route exact path="/" component={HomePage} />
+    //     </Routes>
+    //   </div>
+    // </Router>
   );
 }
 
