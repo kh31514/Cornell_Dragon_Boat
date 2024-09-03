@@ -1,9 +1,10 @@
 import React from 'react';
 import ScheduleItem from './ScheduleItem';
+import '../styles/Schedule.css';
 
 const Schedule = () => {
   return (
-    <>
+    <div className='practice-container'>
       <h2>Practice Schedule</h2>
       <div>
         <ScheduleItem
@@ -19,8 +20,8 @@ const Schedule = () => {
           time="9 - 10:30am"
         />
       </div>
-      <p>All practices take place at the boat launch near Cass Park Access Road.</p>
-    </>
+      <p className="location">All practices take place at the boat launch near Cass Park Access Road.</p>
+    </div>
   );
 };
 
