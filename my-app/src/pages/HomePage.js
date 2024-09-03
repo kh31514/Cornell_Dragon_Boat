@@ -3,6 +3,7 @@ import ImgBanner from '../components/ImgBanner';
 import Schedule from "../components/Schedule";
 import TextSection from '../components/TextSection';
 import FAQ from '../components/FAQ';
+import Contact from '../components/Contact';
 
 import dragonBoatsImg from "../assets/dragonBoats.jpg";
 import logo from "../assets/logo.png";
@@ -43,6 +44,10 @@ function App() {
           imgSize="square"
         />
         <FAQ
+          president={president}
+          presEmail={presEmail}
+        />
+        <Contact
           president={president}
           presEmail={presEmail}
         />
