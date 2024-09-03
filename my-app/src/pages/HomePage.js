@@ -26,16 +26,18 @@ function App() {
         <TextSection
           title="Who We Are"
           body={whoWeAreText}
-          bkgrnd="white"
+          bkgrnd="gray"
           imgPos="right"
           imgSrc={logo}
+          imgSize="portrait"
         />
         <TextSection
           title="What is Dragon Boating?"
           body={whoWeAreText}
-          bkgrnd="gray"
+          bkgrnd="white"
           imgPos="left"
           imgSrc={dragonHeadsImg}
+          imgSize="square"
         />
       </body>
     </div>
